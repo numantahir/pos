@@ -1,0 +1,117 @@
+@charset "utf-8";
+/* CSS Document */
+
+.point_of_sale { 
+	height:calc(100vh - 61px);
+	background:#000;
+	width:100%;
+}
+footer {
+	margin-top:0px; 
+	padding-top:10px;
+	padding-bottom:10px;
+}
+.mywidget {
+	width:100%;
+	margin:auto;
+	padding:0px; 
+} 
+.pos_left {
+	width:400px;
+	height:calc(100vh - 61px);
+	background-color:#FFFFFF; 
+	border-right:1px solid #CCC;
+	padding-top:10px;
+	float:left;
+}
+.items_container { 
+	overflow-y:
+	scroll;height:
+	calc(100vh - 355px);
+}
+.form-group {
+	margin-bottom:0px; 
+}
+.ui-autocomplete-loading {
+    background: white url("../images/ui-anim_basic_16x16.gif") right center no-repeat;
+}
+#items input[type=text] {
+	width:40px; 
+}
+#items input[type=text].cost {
+	border:0px;
+	background-color:transparent; 
+} 
+ul.ui-autocomplete {
+	list-style:none;
+	width:200px;
+	margin-left:10px;
+	padding-left:10px;
+	cursor:pointer; 
+}
+.calculations {
+	background-color:#FFFFFF; 
+	border-top:1px solid #CCC;
+	height:144px;
+	padding:10px; 
+}
+.styletotal {
+	color:#333;
+	font-size:19px;
+	border-bottom:1px solid #CCC; 
+}
+.paymentamount {
+	font-size:16px;
+	color:#0C0;
+	padding-top:0px;
+	padding-bottom:0px; 
+}
+.styletotal span {
+	border-right:1px solid #CCC;
+	padding-right:10px; 
+}
+.rightsidepos {
+	background-color:#ffffff;
+	float:right;
+	width:200px;
+	height:calc(100vh - 61px);
+	width:calc(100% - 400px);
+	overflow-y:scroll; 
+	padding:25px;
+	position:relative;
+}
+#productscontainer { 
+	margin-top:15px;
+}
+#productscontainer .product { 
+	width:139.5px;
+	border:1px solid #666;
+	padding:5px;
+	background-color:#FFF;
+	position:relative;
+	float:left;
+	margin-left:5px;
+	margin-right:5px;
+	margin-bottom:5px;
+	position:relative;
+	padding-bottom:35px;
+}
+#productscontainer .product input[type=image] { 
+	height:110.5px !important;
+	width:129.5px !important;
+}
+#productscontainer .product label {
+	text-align:center;
+	display:block;
+	margin:auto;
+	position:absolute;
+	bottom:5px;
+	text-shadow:1px 1px 0px 1px;
+}
+.pager { 
+	text-align:right;margin-top:8px;margin-bottom:8px;
+}
+input[type="text"].selling_price, input[type="text"].tax_rate, input[type="text"].itemtotal  { 
+	background-color:transparent;
+	border:0px;
+}

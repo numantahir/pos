@@ -1,0 +1,11 @@
+body {
+	font-family:Arial, sans-serif; 
+}
+#reportContainer {
+	width:800px;
+	margin:auto; 
+}
+h1,h2,h3,h4,h5,h6,p {
+	margin-top:5px;
+	margin-bottom:5px; 
+}
